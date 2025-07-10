@@ -1,15 +1,20 @@
+import { Heading } from './components/Heading';
 
+import './styles/theme.css';
+import './styles/global.css'
 
 export function App() {
-console.log('OII Mundo');
+console.log('OII');
 
 return (
 <>
- <h1>Olá mundo</h1>    
+<Heading attr={123} attr2='String'>
+    Olá mundo!
+    </Heading>
     <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad corporis suscipit, quidem molestias sequi reiciendis deserunt expedita hic dignissimos modi alias iure omnis. Accusantium nisi deserunt facilis. Minus, sint adipisci.
     </p>
  </>
- );
+);    
 }
 
