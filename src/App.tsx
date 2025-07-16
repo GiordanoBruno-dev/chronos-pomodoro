@@ -1,19 +1,25 @@
 import './styles/theme.css';
-import './styles/global.css'
-import { Container } from './components/container';
+import './styles/global.css';
+
 import { Heading } from './components/Heading';
+import { Container }  from './components/Container';
+import { Logo } from './components/Logo';
+
+
 
 export function App() {
+    
 
-    return (
+    return  (
         <>
             <Container>
-                    <Heading>LOGO</Heading>
-            </Container>        
+                <Logo />
+            </Container>    
 
             <Container>
                    <Heading>MENU</Heading>
             </Container>           
+
         </>
     );
 }
